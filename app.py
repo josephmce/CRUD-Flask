@@ -12,6 +12,10 @@ transactions = [
 ]
 
 # Read operation
+@app.route("/")
+def get_transactions():
+    
+
 
 # Create operation
 
