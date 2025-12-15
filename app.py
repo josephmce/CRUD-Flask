@@ -18,7 +18,7 @@ def get_transactions():
 
 # Create operation
 @app.route("/add", methods=["GET", "POST"])
-def add_transactions():
+def add_transaction():
     #Check if the request method is POST from the form submission
     if request.method =='POST':
         #Then create a new transaction obhect using the form field values
